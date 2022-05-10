@@ -10,6 +10,8 @@
         <module name="SpringCloud-demo" />
         <module name="provider" />
         <module name="consumer" />
+        <module name="yeyuspace" />
+        <module name="yeyu-cloud-serve-mail" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

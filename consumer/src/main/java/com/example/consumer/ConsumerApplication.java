@@ -6,6 +6,7 @@ import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
@@ -13,6 +14,8 @@ import org.springframework.web.client.RestTemplate;
 @EnableEurekaClient
 //把调用注册子模块接口引入到Spring容器中
 @EnableFeignClients
+//定时任务
+@EnableScheduling
 public class ConsumerApplication {
 
     public static void main(String[] args) {

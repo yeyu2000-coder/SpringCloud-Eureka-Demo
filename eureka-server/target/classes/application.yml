@@ -1,6 +1,6 @@
 server:
   #运行端口
-  port: 8088
+  port: 9099
 eureka:
   instance:
     #注册ip

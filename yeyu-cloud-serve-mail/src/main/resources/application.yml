@@ -1,0 +1,33 @@
+eureka:
+  client:
+    serviceUrl:
+      #服务注册地址
+      defaultZone: http://localhost:9099/eureka
+
+#运行端口
+server:
+  port: 8765
+
+
+# 应用名称
+spring:
+  application:
+    name: yeyu-cloud-serve-mail
+
+
+#邮箱
+  mail:
+    host: smtp.qq.com
+    username: 2363451780@qq.com
+    password: mojbiovvdesmebcb
+    port: 587
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: false
+            required: false
+        debug: true
+
+
