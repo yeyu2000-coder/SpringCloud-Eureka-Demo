@@ -10,6 +10,6 @@ consumer            服务调用者
 yeyu-cloud-serve-mail           邮箱服务
 
 yeyu-cloud-client
-  SpringSecurity
-  Druid
+  1.SpringSecurity
+  2.Druid
   
