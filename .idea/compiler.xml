@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
-        <module name="SpringCloud-demo" />
         <module name="provider" />
+        <module name="yeyu-cloud-client" />
+        <module name="SpringCloud-demo" />
         <module name="consumer" />
         <module name="yeyuspace" />
         <module name="yeyu-cloud-serve-mail" />
